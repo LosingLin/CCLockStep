@@ -1,0 +1,69 @@
+
+toby_jiesuan.png
+size: 511,271
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+tui_r_jiesuan
+  rotate: false
+  xy: 463, 107
+  size: 46, 104
+  orig: 46, 104
+  offset: 0, 0
+  index: -1
+tui_l_jiesuan
+  rotate: false
+  xy: 463, 1
+  size: 46, 104
+  orig: 46, 104
+  offset: 0, 0
+  index: -1
+yan_r_jiesuan
+  rotate: false
+  xy: 379, 85
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+yan_l_jiesuan
+  rotate: false
+  xy: 379, 1
+  size: 82, 82
+  orig: 82, 82
+  offset: 0, 0
+  index: -1
+gebo_l_jiesuan
+  rotate: false
+  xy: 425, 213
+  size: 80, 56
+  orig: 80, 56
+  offset: 0, 0
+  index: -1
+gebo_r_jiesuan
+  rotate: false
+  xy: 343, 169
+  size: 80, 58
+  orig: 80, 58
+  offset: 0, 0
+  index: -1
+body_toby
+  rotate: false
+  xy: 269, 1
+  size: 108, 126
+  orig: 108, 126
+  offset: 0, 0
+  index: -1
+head_toby
+  rotate: false
+  xy: 1, 1
+  size: 266, 248
+  orig: 266, 248
+  offset: 0, 0
+  index: -1
+duck_jiesuan
+  rotate: false
+  xy: 269, 129
+  size: 72, 78
+  orig: 72, 78
+  offset: 0, 0
+  index: -1

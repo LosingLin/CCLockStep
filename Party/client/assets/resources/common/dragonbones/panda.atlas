@@ -1,0 +1,55 @@
+
+panda.png
+size: 957,435
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+zuotui_panda
+  rotate: false
+  xy: 708, 1
+  size: 118, 210
+  orig: 118, 210
+  offset: 0, 0
+  index: -1
+zuoerduo_panda
+  rotate: false
+  xy: 708, 213
+  size: 100, 94
+  orig: 100, 94
+  offset: 0, 0
+  index: -1
+zuobi_panda
+  rotate: false
+  xy: 520, 1
+  size: 186, 318
+  orig: 186, 318
+  offset: 0, 0
+  index: -1
+shenti_panda
+  rotate: false
+  xy: 1, 1
+  size: 517, 425
+  orig: 517, 425
+  offset: 0, 0
+  index: -1
+zuiba_panda
+  rotate: false
+  xy: 828, 1
+  size: 127, 40
+  orig: 127, 40
+  offset: 0, 0
+  index: -1
+zuiba02_panda
+  rotate: false
+  xy: 810, 213
+  size: 115, 78
+  orig: 115, 78
+  offset: 0, 0
+  index: -1
+yanjing_panda
+  rotate: false
+  xy: 520, 321
+  size: 296, 112
+  orig: 296, 112
+  offset: 0, 0
+  index: -1

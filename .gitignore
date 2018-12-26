@@ -1,0 +1,8 @@
+*.meta
+Party/server/node_modules/*
+Party/server/package-lock.json
+Party/client/library/*
+Party/client/local/*
+Party/client/temp/*
+
+

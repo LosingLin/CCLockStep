@@ -1,0 +1,132 @@
+
+toby_jiayou.png
+size: 495,709
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+toby_jiayou/R_tui_toby
+  rotate: false
+  xy: 151, 569
+  size: 60, 86
+  orig: 60, 86
+  offset: 0, 0
+  index: -1
+toby_jiayou/L_tui_toby
+  rotate: false
+  xy: 83, 505
+  size: 66, 94
+  orig: 66, 94
+  offset: 0, 0
+  index: -1
+toby_jiayou/erduo_tuzi
+  rotate: false
+  xy: 213, 601
+  size: 35, 35
+  orig: 35, 35
+  offset: 0, 0
+  index: -1
+toby_jiayou/L_gebo_tuzi
+  rotate: false
+  xy: 73, 637
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+toby_jiayou/R_gebo_tuzi
+  rotate: false
+  xy: 1, 637
+  size: 70, 60
+  orig: 70, 60
+  offset: 0, 0
+  index: -1
+toby_jiayou/tui_tuzi
+  rotate: false
+  xy: 151, 505
+  size: 15, 30
+  orig: 15, 30
+  offset: 0, 0
+  index: -1
+toby_jiayou/shenti_tuzi
+  rotate: false
+  xy: 1, 505
+  size: 80, 130
+  orig: 80, 130
+  offset: 0, 0
+  index: -1
+toby_jiayou/zuiba02_tuzi
+  rotate: false
+  xy: 213, 569
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+toby_jiayou/L_gebo_toby
+  rotate: false
+  xy: 343, 103
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+toby_jiayou/zuiba01_tuzi
+  rotate: false
+  xy: 83, 601
+  size: 60, 30
+  orig: 60, 30
+  offset: 0, 0
+  index: -1
+toby_jiayou/R_gebo_toby
+  rotate: false
+  xy: 343, 1
+  size: 150, 100
+  orig: 150, 100
+  offset: 0, 0
+  index: -1
+toby_jiayou/shenti_gebo_toby
+  rotate: false
+  xy: 343, 205
+  size: 140, 100
+  orig: 140, 100
+  offset: 0, 0
+  index: -1
+toby_jiayou/tou_gebo_toby
+  rotate: false
+  xy: 1, 1
+  size: 340, 320
+  orig: 340, 320
+  offset: 0, 0
+  index: -1
+toby_jiayou/zuiba01_gebo_toby
+  rotate: false
+  xy: 145, 657
+  size: 80, 50
+  orig: 80, 50
+  offset: 0, 0
+  index: -1
+toby_jiayou/yanjing03_gebo_toby
+  rotate: false
+  xy: 183, 405
+  size: 268, 80
+  orig: 268, 80
+  offset: 0, 0
+  index: -1
+toby_jiayou/yanjing02_gebo_toby
+  rotate: false
+  xy: 183, 323
+  size: 268, 80
+  orig: 268, 80
+  offset: 0, 0
+  index: -1
+toby_jiayou/yanjing01_gebo_toby
+  rotate: false
+  xy: 183, 487
+  size: 268, 80
+  orig: 268, 80
+  offset: 0, 0
+  index: -1
+toby_jiayou/hua_toby
+  rotate: false
+  xy: 1, 323
+  size: 180, 180
+  orig: 180, 180
+  offset: 0, 0
+  index: -1
