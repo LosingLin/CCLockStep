@@ -37,7 +37,12 @@ cc.Class({
     },
 
     // LIFE-CYCLE CALLBACKS:
+    ctor () {
+        
+    },
+    onDestroy () {
 
+    },
     // onLoad () {},
 
     start () {
@@ -45,13 +50,13 @@ cc.Class({
     },
 
     onEnable () {
-         mo.sys.events.addEventListener(EventMsg.SocketConnected, this.onConnect, this);
+        mo.sys.events.addEventListener(EventMsg.SocketConnected, this.onConnect, this);
     },
     onDisable () {
         mo.sys.events.removeEventListener(EventMsg.SocketConnected, this);
     },
 
-    // update (dt) {},
+    
 
     connect () {
         mo.log('---connecting...');
@@ -70,9 +75,11 @@ cc.Class({
         mo.log('连接成功 ： ', data);
         this.ConnectLayer.active = false;
 
+        this.b_isConnect = true;
+
         let name = this.NameEB.string;
-        let mWidth = 2000;
-        let mHeight = 2000;
+        let mWidth = app.DataMgr.mapWidth;
+        let mHeight = app.DataMgr.mapHeight;
         app.network.socketio.send('joinGame', {playerName: name, mapWidth: mWidth, mapHeight: mHeight});
 
         app.DataMgr.playerName = name;
@@ -85,6 +92,7 @@ cc.Class({
     },
     onReconnect () {
 
-    }
+    },
 
+    
 });

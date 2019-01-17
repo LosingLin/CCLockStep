@@ -27,6 +27,7 @@ function(){
 
     // cc.director.setClearColor(new cc.Color(0,0,0, 0));
 
+    cc.game.setFrameRate(60);
 }();
 
 cc.macro.ENABLE_TRANSPARENT_CANVAS = true;

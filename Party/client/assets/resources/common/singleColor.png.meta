@@ -5,24 +5,7 @@
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
-  "platformSettings": {
-    "web": {
-      "formats": [
-        {
-          "name": "png",
-          "quality": 80
-        }
-      ]
-    },
-    "default": {
-      "formats": [
-        {
-          "name": "png",
-          "quality": 80
-        }
-      ]
-    }
-  },
+  "platformSettings": {},
   "subMetas": {
     "singleColor": {
       "ver": "1.0.3",

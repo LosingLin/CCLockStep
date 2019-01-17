@@ -23,6 +23,17 @@ cc.Class({
     // update (dt) {},
 
     setName (name) {
+        this.name = name;
         this.labName.string = name;
+    },
+    getName () {
+        return this.name;
+    },
+
+    setDirection (dir) {
+        this.direction = dir;
+    },
+    getDirection () {
+        return this.direction;
     }
 });

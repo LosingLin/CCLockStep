@@ -5,16 +5,7 @@
   "wrapMode": "clamp",
   "filterMode": "bilinear",
   "premultiplyAlpha": false,
-  "platformSettings": {
-    "web": {
-      "formats": [
-        {
-          "name": "png",
-          "quality": 80
-        }
-      ]
-    }
-  },
+  "platformSettings": {},
   "subMetas": {
     "star_bg": {
       "ver": "1.0.3",

@@ -6,7 +6,7 @@ let self = null;
 let app_socketio = {
     socket_head : 'ws://',
     socket_ip : '127.0.0.1',
-    socket_port : ':3000/',
+    socket_port : ':3124/',
 
     self : null,
     //建立长链接
@@ -36,7 +36,7 @@ let app_socketio = {
         mo.network.SocketIO.addOnceListener(event, handler, target);
     },
     send : function(event, data) {
-        mo.log('SOCKETIO SEND : [' + event + ']', data);
+        // mo.log('SOCKETIO SEND : [' + event + ']', data);
         //TODO: common handler data ?
         mo.network.SocketIO.send(event, data);
     },

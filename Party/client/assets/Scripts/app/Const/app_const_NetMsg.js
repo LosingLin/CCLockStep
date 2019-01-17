@@ -5,6 +5,10 @@ let NetMsg = {
     Disconnect: 'disconnect',
     Reconnect: 'reconnect',
 
+    System: 'system',
+    TimeSync: 'timeSync',
+    StartGame: 'startGame',
+    Message: 'message',
 };
 
 module.exports = NetMsg;
