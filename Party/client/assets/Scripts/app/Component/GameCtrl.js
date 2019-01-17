@@ -170,7 +170,7 @@ cc.Class({
             }
 
             let scale = Math.ceil(this.recvCommands.length / 3)
-			if(scale > 10) scale = 10
+			if(scale > 20) scale = 20
             this.isFastRunning = (scale > 1)
             
             // mo.log('-------------------- this.recvCommands.length : ', this.recvCommands.length);
@@ -277,21 +277,27 @@ cc.Class({
 
         direction = parseInt(direction);
 
-        // let delayTime = cc.delayTime(0.04);
-        // let callFunc = cc.callFunc(function() {
-        //     let playerCtrl = this.players[app.DataMgr.playerName].getComponent('PlayerCtrl');
-        //     playerCtrl.setDirection(direction);
-        // }, this);
-        // this.node.runAction(cc.sequence(delayTime, callFunc));
+        let dTime = 0;
+        // if (app.DataMgr.playerName == 'ManYou') {
+        //     dTime = 2;
+        // }
+        let delayTime = cc.delayTime(dTime);
+        let callFunc = cc.callFunc(function() {
+            // let playerCtrl = this.players[app.DataMgr.playerName].getComponent('PlayerCtrl');
+            // playerCtrl.setDirection(direction);
 
-        let command = {};
-        command.id = app.DataMgr.playerName;
-        let cdata = {};
-        cdata.msg = 'move';
-        cdata.dir = direction;
-        command.data = cdata;
-        command.step = this.stepTime;
+            let command = {};
+            command.id = app.DataMgr.playerName;
+            let cdata = {};
+            cdata.msg = 'move';
+            cdata.dir = direction;
+            command.data = cdata;
+            command.step = this.stepTime;
 
-        app.network.socketio.send('message', command);
+            app.network.socketio.send('message', command);
+        }, this);
+        this.node.runAction(cc.sequence(delayTime, callFunc));
+
+        
     }
 });

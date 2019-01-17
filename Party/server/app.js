@@ -58,6 +58,13 @@ io.on('connection', function(socket) {
         let mapHeight = data.mapHeight;
         
 
+    
+        if (g_joinCount == g_maxJoinCount) {
+            socket.emit('system', '房间已满');
+            socket.disconnect();
+            return;
+        }
+
         if (g_onlines[name]) {
             g_onlines[name].socket.emit('system', '号被挤了');
             g_onlines[name].socket.disconnect();
@@ -66,13 +73,13 @@ io.on('connection', function(socket) {
                 // 重连
                 g_onlines[name] = {socket: socket, online: true};
                 g_joinCount ++;
-            }
-        }
 
-        if (g_joinCount == g_maxJoinCount) {
-            socket.emit('system', '房间已满');
-            socket.disconnect();
-            return;
+                // 重连
+                socket.emit('startGame', {player: Object.keys(g_onlines), stepInterval: g_stepInterval});
+                socket.emit('message', g_commands_history);
+
+                return;
+            }
         }
 
         if (g_joinCount < g_maxJoinCount) {
